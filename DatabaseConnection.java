@@ -24,3 +24,4 @@ public class DatabaseConnection {
         }
     }
 }
+// kurwa mac
