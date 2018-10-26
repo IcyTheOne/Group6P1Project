@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class Driver {
+public class DataGathering {
   public static void main(String[] args) {
 
     try {
