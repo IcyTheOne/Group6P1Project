@@ -24,4 +24,4 @@ public class DatabaseConnection {
         }
     }
 }
-// kurwa mac 1
+// kurwa mac
