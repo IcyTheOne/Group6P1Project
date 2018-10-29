@@ -1,5 +1,3 @@
-package src;
-
 import java.sql.*;
 
 public class Driver {
@@ -22,7 +20,7 @@ public class Driver {
         System.out.println(myResults.getString("first_name") + " " + myResults.getString("last_name"));
         System.out.println(myResults.getString("email"));
         System.out.println(myResults.getString("address") + ", " + myResults.getString("postal_code") + " " + myResults.getString("city"));
-        System.out.println();
+        System.out.printf();
 
       }
     }
