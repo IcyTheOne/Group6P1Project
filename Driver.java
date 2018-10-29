@@ -21,6 +21,7 @@ public class Driver {
         System.out.println(myResults.getString("email"));
         System.out.println(myResults.getString("address") + ", " + myResults.getString("postal_code") + " " + myResults.getString("city"));
         System.out.println();
+        System.out.printf();
 
       }
     }
