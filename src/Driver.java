@@ -17,10 +17,11 @@ public class Driver {
 
       // 4. Process the result set
       while (myResults.next()) {
-        System.out.println(myResults.getString("first_name") + " " + myResults.getString("last_name"));
-        System.out.println(myResults.getString("email"));
-        System.out.println(myResults.getString("address") + ", " + myResults.getString("postal_code") + " " + myResults.getString("city"));
-        System.out.printf();
+          System.out.println(myResults.getString("first_name") + " " + myResults.getString("last_name"));
+          System.out.println(myResults.getString("email"));
+          System.out.println(myResults.getString("address") + ", " + myResults.getString("postal_code") + " " + myResults.getString("city"));
+          System.out.printf();
+
 
       }
     }
