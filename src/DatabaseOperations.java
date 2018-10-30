@@ -1,3 +1,5 @@
+package src;
+
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -17,7 +19,7 @@ public class DatabaseOperations {
         }
     }
 
-    public void printContent(){
+    public void printAllUsers(){
         try {
             // 1. Get a connection to the Database
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -44,7 +46,9 @@ public class DatabaseOperations {
             exc.printStackTrace();
 
         }
-}
+    }
 
+    public void addNewUser(){
 
+    }
 }

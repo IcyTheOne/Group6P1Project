@@ -1,4 +1,4 @@
-package src;
+/*package src;
 
 import java.sql.*;
 import java.util.logging.Level;
@@ -26,3 +26,4 @@ public class DatabaseConnection {
         }
     }
 }
+*/
